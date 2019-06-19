@@ -7,8 +7,8 @@ import org.apache.commons.lang3.StringUtils;
 public class Application {
 	
 	public int countWords(String words) {
-		String[] separateWords = StringUtils.split(words, '');
-		return (separateWords == null) ? 0 : separateWords.lenght;
+		String[] separateWords = StringUtils.split(words, ' ');
+		return (separateWords == null) ? 0 : separateWords.length;
 	}
     
 	public void greet() {
